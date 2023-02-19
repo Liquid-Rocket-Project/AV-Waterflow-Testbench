@@ -2,13 +2,17 @@
  * Author: Nick Fan
  * Date: 2/15/2023
  * Revision 2
+ * For copy paste into Arduino IDE.
+ * Note: Enter inputs in serial monitor. The first input after 
+ * boot may not generate output. Make sure all output pins are 
+ * tested prior to waterflow.
  */
 
 // libraries to include
 #include "stdio.h"
 #include "string.h"
 
-// defining Pinouts for GPIO output
+// defining Pinouts for GPIO output (Arduino Nano Pins)
 #define PIN1 5 // D5
 #define PIN2 6 // D6
 #define PIN3 7 // D7
